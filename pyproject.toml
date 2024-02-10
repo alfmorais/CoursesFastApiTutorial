@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "coursesapifastapi"
+version = "0.1.0"
+description = ""
+authors = ["alfmorais <alfredneto@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.109.2"
+uvicorn = {extras = ["standard"], version = "^0.27.1"}
+sqlalchemy = "^2.0.25"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
